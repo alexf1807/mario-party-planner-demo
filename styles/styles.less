@@ -1,0 +1,371 @@
+@Blue: #5D9AF6;
+@White: #fff;
+@grad1: linear-gradient(#5D9AF6,#5D9AF6,#5D9AF6,#5D9AF6,#5D9AF6,#5D9AF6,#5D9AF6,#5D9AF6,#0CCD12,#fff,#01AD01,#fff);
+@textShad1: 1px 1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000,0px 1px 0 #000,0px -1px 0 #000,-1px 0px 0 #000,1px 0px 0 #000,2px 2px 0 #000,-2px 2px 0 #000,2px -2px 0 #000,-2px -2px 0 #000,0px 2px 0 #000,0px -2px 0 #000,-2px 0px 0 #000,2px 0px 0 #000,1px 2px 0 #000,-1px 2px 0 #000,1px -2px 0 #000,-1px -2px 0 #000,2px 1px 0 #000,-2px 1px 0 #000,2px -1px 0 #000,-2px -1px 0 #000;
+@Orange: #FFC508;
+
+
+@font-face {
+	font-family: 'comic'; 
+	src: url(Grinched.otf); 
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: 'mariofont';
+	src: url(tlpsmb.ttf); 
+	font-style: normal;
+	font-weight: 100;
+}
+
+//-- Body --
+body::-webkit-scrollbar{
+  display: none;
+}
+
+body {
+  background: repeating-linear-gradient(
+    -30deg,
+    #BF0101,
+    #BF0101 20px,
+    #E40103 20px,
+    #E40103 40px);
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+
+
+
+
+//-- Navbar --
+.navbar { 
+  position: relative;
+  background: #98F0FA;
+	background: linear-gradient(to right, #18BDF3 0%, #46D9FA 22%, #98F0FA 60%, #2AC8F5 85%, #16BBF3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98F0FA', endColorstr='#46D9FA', GradientType=1 );
+	font-family: comic;
+	font-size:25px;
+	box-shadow: -3px -3px 15px grey;
+}
+
+.navbar-light .collapse .navbar-nav .nav-item .nav-link {
+  font-family:comic;
+	color:@Orange;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;   
+}
+
+.hrdspinr {
+	width:60px;
+  -webkit-filter: contrast(2);
+  filter: contrast(2);
+}
+
+
+
+
+
+
+.homehrdbx {
+  position: relative;
+	text-align:center;
+	background:@White;
+  background-image: @grad1;
+}
+
+.eventcard{
+  box-shadow: 0px 0px 10px black;
+}
+
+.homehdrttl {
+	margin-right:-5px;
+	font-family: 'mariofont';
+	font-size: 60px;
+	text-shadow: @textShad1;
+}
+
+.homehdrttl2{
+	margin-right:-2px;
+	font-family: 'mariofont';
+	font-size: 25px;
+	text-shadow: @textShad1;
+}
+
+.eventhdrttl {
+	margin-right:-5px;
+	font-family: 'mariofont';
+	font-size: 30px;
+	text-shadow: @textShad1;
+}
+
+.eventtitle{
+  font-family:comic;
+  font-size:60px;
+  color:@Orange;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;   
+}
+
+.homemario{
+	width:90px;	
+	filter: drop-shadow(2px 2px 4px black);
+}
+
+.cloudleft {
+	width:90px;
+	float:left;
+	margin:10px 20px;
+	filter: drop-shadow(2px 2px 4px black);
+}
+
+.cloudright {
+	width:90px;
+	float:right;
+	margin:10px 20px;
+	filter: drop-shadow(-2px 2px 4px black);
+}
+
+.homemario2{
+	float:right;
+	width:75px;	
+	filter: drop-shadow(2px 2px 4px black);
+}
+
+.cloudleft2 {
+	width:50px;
+	float:left;
+	margin:5px 10px;
+	filter: drop-shadow(2px 2px 4px black);
+}
+
+.cloudright2 {
+	width:50px;
+	float:right;
+	margin:5px 10px;
+	filter: drop-shadow(-2px 2px 4px black);
+}
+
+
+//-- Container --
+.cont1 {
+  position: relative;
+	margin-top:10px;
+	box-shadow: 0px 0px 8px black; 
+	text-align: center; 
+	border-radius:5px;
+	padding: 20px;
+	width:95%;
+	max-width: 1050px;
+	background-image: linear-gradient(to right, #328C38, #7EFF79 , #299033);
+}
+
+.cont2 {
+  position: relative;
+	margin-top:10px;
+	box-shadow: 0px 0px 8px black; 
+	text-align: center; 
+	border-radius:5px;
+	padding: 20px;
+	width:95%;
+	background-image: linear-gradient(to right, #19B8F2, #79D9EA , #19B8F2);
+}
+
+.card-body{
+  background: #98F0FA;
+	background: linear-gradient(to right, #18BDF3 0%, #46D9FA 22%, #98F0FA 60%, #2AC8F5 85%, #16BBF3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98F0FA', endColorstr='#46D9FA', GradientType=1 );
+}
+	
+.card-footer{
+  background: #98F0FA;
+	background: linear-gradient(to right, #18BDF3 0%, #46D9FA 22%, #98F0FA 60%, #2AC8F5 85%, #16BBF3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98F0FA', endColorstr='#46D9FA', GradientType=1 );
+}
+
+.card-title {
+	font-family:comic;
+	color:@Orange;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;   
+}
+
+.cardsbmtbtn {
+	cursor: pointer;
+	background:none;
+	border:none;
+	font-family: verdana;
+	color:#fffad3;
+	font-size:20px;
+    text-shadow:
+	-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;   
+}
+
+.barline{
+	width:100%;
+	height:8px;
+	background-image: linear-gradient(grey,@White,black);
+	box-shadow: -3px -3px 15px lightgrey;
+}
+
+.rdstrbox{
+    background: repeating-linear-gradient(
+      -30deg,
+      #BF0101,
+      #BF0101 20px,
+      #E40103 20px,
+      #E40103 40px);
+}
+
+
+
+
+
+.table{
+	color: lightgrey;
+	font-size: 10px;
+}
+
+.tblth{
+  font-family: 'Audiowide', cursive;
+  font-size: 12px;
+  color: lightblue;
+}
+
+.tblorgname{
+	margin-left:50%;
+	font-family: times new roman;
+	font-size: 13px;
+}
+
+.carddesc{
+	font-family: times new roman;
+	font-size: 13px;
+}
+
+.tblpersname{
+	font-family: times new roman;
+	font-size: 15px;
+}
+
+.titheader{
+  font-family:comic;
+	color:@Orange;
+	font-size: 60px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;   
+}
+
+.tblddline {
+	color: red;
+}
+
+.sbmtbtn {	
+	background-image: linear-gradient(#01A8EF, #c5e3e5, #01A8EF, #0087c1);
+	color: PaleGreen;
+	text-shadow: 0px 0px 2px black;
+	border:2px solid LightSteelBlue;
+	box-shadow: 0px 0px 10px black;
+	border-radius:50%;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:13px;
+	padding:15px 15px;
+	width: 60px;
+	height: 60px;
+	text-decoration:none;
+}
+
+.sbmtbtn:hover {
+	background-image: linear-gradient(#01A8EF, #c5e3e5, #01A8EF, #01A8EF, #01A8EF, #0087c1);
+	color: GreenYellow;
+	display:inline-block;
+	text-shadow: 1px 1px 2px black;
+	border:2px solid grey;
+	box-shadow: 0px 0px 5px black;
+}
+
+.sbmtbtn:active {
+	position:relative;
+	top:1px;
+}
+
+.tblbtn2 {
+	text-align:center;
+	background:none;
+	border-radius:4px;
+	border:1px solid grey;
+	display:inline-block;
+	cursor:pointer;
+	color:lightgrey;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	width:95%;
+	max-width:400px;
+}
+
+.tblbtn2:hover {
+	border:1px solid #54C8FF;
+	text-align:center;
+	background:none;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#54C8FF;
+	font-family:Arial;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	width:95%;
+	max-width:400px;
+	  transition: 0.3s;
+}
+
+.tblbtn2:active {
+	position:relative;
+	top:1px;
+}
+
+.srchicon {
+	color: black;
+}
+
+.card-img-top{
+
+}
+
+.thumbnail4 {
+  font-family: mario;
+}
+
+.thumbnail4img {
+    width:95%;
+    border-radius: 5px;
+    margin:auto;
+	box-shadow: -0px -0px 15px black;
+}
+
+.profthumb {
+	border-radius:50%;
+	width:50px;
+	margin-right:5px;
+	box-shadow:2px 2px 4px black;
+}
