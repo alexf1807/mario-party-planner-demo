@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-	<link rel="icon" href="http://icons.iconarchive.com/icons/yellowicon/game-stars/256/Mario-icon.png">
+	<link rel="icon" href="images/favicon.png">
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
