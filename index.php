@@ -1,7 +1,7 @@
 <?php include "templates/header.php"; ?>
 
 <div class="homehrdbx d-none d-lg-block">
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Cartoon_cloud.svg/1280px-Cartoon_cloud.svg.png" class="cloudleft">
+	<img src="images/cloud.png" class="cloudleft">
 	<span class="homehdrttl" style="color:#55C94E">M</span>
 	<span class="homehdrttl" style="color:#1BAAD6">A</span>
 	<span class="homehdrttl" style="color:#F9D012">R</span>
@@ -19,8 +19,8 @@
 	<span class="homehdrttl" style="color:#DD1925">N</span>
 	<span class="homehdrttl" style="color:#55C94E">E</span>
 	<span class="homehdrttl" style="color:#55C94E">R</span>
-	<img src="http://pngimg.com/uploads/mario/mario_PNG53.png" class="homemario">
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Cartoon_cloud.svg/1280px-Cartoon_cloud.svg.png" class="cloudright">
+	<img src="images/m1.png" class="homemario">
+	<img src="images/cloud.png" class="cloudright">
 	<br>
 </div>
 
@@ -31,8 +31,8 @@
 
 
 <div class="homehrdbx d-lg-none">
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Cartoon_cloud.svg/1280px-Cartoon_cloud.svg.png" class="cloudleft2">
-	<img src="http://pngimg.com/uploads/mario/mario_PNG53.png" class="homemario2">
+	<img src="images/cloud.png" class="cloudleft2">
+	<img src="images/m1.png" class="homemario2">
 	<span class="homehdrttl2" style="color:#55C94E">M</span>
 	<span class="homehdrttl2" style="color:#1BAAD6">A</span>
 	<span class="homehdrttl2" style="color:#F9D012">R</span>

@@ -19,7 +19,7 @@
 
 
 <nav class="navbar navbar-expand-xl navbar-light bg-light">
-  <a class="navbar-brand" href="./index.php"><img src="http://www.gearfuse.com/wp-content/uploads/2010/06/retro-gaming-3d-1.gif" class="hrdspinr"></a>
+  <a class="navbar-brand" href="./index.php"><img src="images/mario3d.gif" class="hrdspinr"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
